@@ -283,4 +283,5 @@ def set_max_min(id):
         ava=(max+min)/2
         scale_horz_sv[id-1].config(from_=min,to=max,tickinterval=ava//4.5)
         show_table()
+#test github
 mainloop()
